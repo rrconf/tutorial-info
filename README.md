@@ -1,2 +1,2 @@
 Tutorial info module for rrconf.
-See [RRconf](../rrconf.git)
+See [RRconf](https://github.com/rrconf/rrconf).
