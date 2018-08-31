@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+test -z $(type -p) || { echo bash required; exit 1; }
+set -e
+set -u
+set -x
+source ${RRCONFINC}
+
+echo fqdn:$(hostname -f)
+echo hostname:$(hostname)
+test -f /etc/machine-id &&
+  echo machine-id:$(</etc/machine-id)
